@@ -1,0 +1,8 @@
+#no access to htaccess files
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
+
+Deny from all
